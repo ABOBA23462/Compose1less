@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Compose1lessTheme {
-
+                MainScreen()
             }
         }
     }
